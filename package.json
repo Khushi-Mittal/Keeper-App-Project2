@@ -1,6 +1,6 @@
 {
   "name": "keeper-part-3-completed",
-  "homepage": "https://Khushi-Mittal.github.io/Keeper-App-Project",
+  "homepage": "https://Khushi-Mittal.github.io",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -9,14 +9,15 @@
     "gh-pages": "^4.0.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "react-scripts": "^3.2.0"
+    "react-scripts": "^3.2.0",
+    "save-dev": "^0.0.1-security"
   },
   "devDependencies": {
     "typescript": "3.3.3"
   },
   "scripts": {
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
